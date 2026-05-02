@@ -1,0 +1,60 @@
+# === 機密情報（絶対にコミットしない・セキュリティ最優先）===
+.env
+.env.*
+!.env.example
+!.env.template
+freee_token.json
+*_token.json
+*token*.json
+*credentials*
+*secret*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.aws/credentials
+.ssh/
+.gcloud/
+gha-creds-*.json
+service-account-*.json
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.next/
+dist/
+build/
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === ログ・一時ファイル ===
+*.log
+logs/
+tmp/
+.cache/
